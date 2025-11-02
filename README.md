@@ -1,4 +1,6 @@
 
+---
+
 ```markdown
 # 🧠 Fake News Detection using GRU + Word2Vec
 
@@ -16,6 +18,7 @@ Includes both **CLI** and **REST API (Flask)** interfaces for flexible use.
 ---
 
 ## 📁 Project Structure
+
 ```
 
 .
@@ -64,7 +67,7 @@ The **GoogleNews-vectors-negative300.bin.gz** (≈1.6 GB) file is required but *
 
 #### 🔹 Option 1 — Official Source
 
-* [https://code.google.com/archive/p/word2vec/](https://code.google.com/archive/p/word2vec/)
+[https://code.google.com/archive/p/word2vec/](https://code.google.com/archive/p/word2vec/)
 
 #### 🔹 Option 2 — Command Line (if available)
 
@@ -90,7 +93,7 @@ fake-news-detector/
 
 ## 💻 Run in CLI Mode
 
-You can test predictions directly in your terminal.
+You can test predictions directly in your terminal:
 
 ```bash
 python predict.py
@@ -160,4 +163,3 @@ venv/
 __pycache__/
 GoogleNews-vectors-negative300.bin.gz
 ```
-
